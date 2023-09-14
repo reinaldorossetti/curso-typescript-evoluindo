@@ -1,7 +1,7 @@
 export class Negociacao {
-    readonly _data;
-    readonly _quantidade;
-    readonly _valor
+    private _data;
+    private _quantidade;
+    private _valor
 
     constructor(data, quantidade, valor) {
         this._data = data;
